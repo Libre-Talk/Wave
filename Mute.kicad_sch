@@ -1649,7 +1649,7 @@
 		(at 40.64 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a066bda-9dff-401b-a291-14677d90971d")
+		(uuid "58631a2c-3fd5-4b5a-ad4c-2051f4295b98")
 	)
 	(junction
 		(at 81.28 43.18)
@@ -2275,76 +2275,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 40.64 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36235507-40b3-4a1c-ac19-6e8aefa04cdf")
-		(property "Reference" "SW7"
-			(at 41.91 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 41.91 69.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 40.64 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "73098ce3-2e99-4a7f-b958-a4d1cf90df0b")
-		)
-		(pin "1"
-			(uuid "46a48288-7279-455d-81b7-e3705ec04ccf")
-		)
-		(instances
-			(project "Wave"
-				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/797be30f-7ee7-478f-9b58-a053d36acba1"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xGxx:74LVC1G17")
 		(at 81.28 63.5 0)
 		(unit 1)
@@ -2370,7 +2300,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 78.74 63.5 0)
 			(effects
 				(font
@@ -3840,6 +3770,76 @@
 			(project "Wave"
 				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/797be30f-7ee7-478f-9b58-a053d36acba1"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 40.64 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e82e6440-a9db-40f3-9c23-a58be01cf388")
+		(property "Reference" "SW6"
+			(at 41.91 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 41.91 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c0c17fd-721b-40fc-a06e-3d6ea98b347a")
+		)
+		(pin "1"
+			(uuid "3f743508-d04a-4520-bbde-4378b009113d")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/797be30f-7ee7-478f-9b58-a053d36acba1"
+					(reference "SW6")
 					(unit 1)
 				)
 			)
