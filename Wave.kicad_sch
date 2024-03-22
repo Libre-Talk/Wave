@@ -1,0 +1,250 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d9ae5ab6-a812-4d0b-96e5-05f704754669")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 53.34 -39.37)
+		(size 16.51 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b655d4e-af5c-4e53-9062-b4587119e157")
+		(property "Sheetname" "DAC+ADC"
+			(at 53.34 -40.0816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DAC+ADC.kicad_sch"
+			(at 53.34 -23.5454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 -39.37)
+		(size 16.51 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e02a4fb-f45c-4389-9579-622a77274b14")
+		(property "Sheetname" "MCU"
+			(at 29.21 -40.0816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 29.21 -23.5454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 -39.37)
+		(size 15.24 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "37beea85-3d38-4713-8dc5-191a5b162f46")
+		(property "Sheetname" "PA & Speaker"
+			(at 76.2 -40.0816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PA+SPK.kicad_sch"
+			(at 76.2 -23.5454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 76.2 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -2.54 -39.37)
+		(size 17.78 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5faeef98-962c-45cf-bbaf-2cc942880b89")
+		(property "Sheetname" "USB & Power"
+			(at -2.54 -40.0816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb+power.kicad_sch"
+			(at -2.54 -23.5454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 -39.37)
+		(size 15.24 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "797be30f-7ee7-478f-9b58-a053d36acba1")
+		(property "Sheetname" "Mute"
+			(at 127 -40.0816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mute.kicad_sch"
+			(at 127 -23.5454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 -39.37)
+		(size 16.51 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0b31402-d5d8-4585-a234-df422b4e9b7b")
+		(property "Sheetname" "Interface"
+			(at 97.79 -40.0816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface.kicad_sch"
+			(at 97.79 -23.5454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
