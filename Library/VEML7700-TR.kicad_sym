@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Library:XDCR_VEML7700-TR"
+		(property "Footprint" "footprints:XDCR_VEML7700-TR"
 			(at 0 0 0)
 			(effects
 				(font

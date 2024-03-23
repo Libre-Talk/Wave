@@ -1,0 +1,325 @@
+(footprint "Knowles_LGA-5_3.5x2.65mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://www.knowles.com/docs/default-source/model-downloads/sph0641lu4h-1-revb.pdf")
+	(tags "MEMS Microphone LGA")
+	(property "Reference" "REF**"
+		(at 0 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "5aeb5fdd-ac5e-425d-a05e-4ba426cfb4ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Knowles_LGA-5_3.5x2.65mm"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "8fe24191-957f-4136-8042-d9d24e2be811")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b77434ea-cb03-40ed-b81f-84d8051c0bc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a52f333-6bec-40a1-b063-4c6cbbb5292a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef884a2a-61fd-4c1f-bfb9-12bd62068bba")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start -0.6 0.49)
+		(mid -0.464769 0.298418)
+		(end -0.271239 0.165989)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "84cb3d9f-3315-4c36-8054-e7aab3850e99")
+	)
+	(fp_arc
+		(start -0.28 1.37)
+		(mid -0.471582 1.234769)
+		(end -0.604011 1.041239)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "acfdc3a9-9ae5-491c-bf75-a5374ee59815")
+	)
+	(fp_arc
+		(start 0.28 0.17)
+		(mid 0.471401 0.305047)
+		(end 0.603799 0.49829)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "b6f14af8-bce8-4bc7-ac1d-c5137215e781")
+	)
+	(fp_arc
+		(start 0.6 1.05)
+		(mid 0.464769 1.241582)
+		(end 0.271239 1.374011)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "87a3860b-0102-4c1e-b4ab-fa4ba6aa4d30")
+	)
+	(fp_line
+		(start -1.44 1.86)
+		(end -1.44 -1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac3758d0-37e6-410c-8f4d-1992f29fd28c")
+	)
+	(fp_line
+		(start -1.14 -1.86)
+		(end 1.44 -1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efa353d3-5361-4681-9a91-611430c888ea")
+	)
+	(fp_line
+		(start 1.44 -1.86)
+		(end 1.44 1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c805a49d-e1c7-4778-ae7b-d4c9a4a59433")
+	)
+	(fp_line
+		(start 1.44 1.86)
+		(end -1.44 1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fdd7b29-43cf-49b0-8333-9f81026be8a7")
+	)
+	(fp_poly
+		(pts
+			(xy -1.44 -1.86) (xy -1.72 -1.86) (xy -1.44 -2.14) (xy -1.44 -1.86)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "8a9cac9f-8955-4c43-9602-0beec28f6841")
+	)
+	(fp_line
+		(start -1.58 -2)
+		(end 1.58 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fdd53efe-254b-4301-9f68-a9f051d7cca3")
+	)
+	(fp_line
+		(start -1.58 2)
+		(end -1.58 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8591cf43-3215-46d6-b82e-1a8fb54c3e11")
+	)
+	(fp_line
+		(start 1.58 -2)
+		(end 1.58 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cbc293aa-c0e3-49fc-bb01-f8e99468603d")
+	)
+	(fp_line
+		(start 1.58 2)
+		(end -1.58 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7710715-191c-4641-a0c6-5fd5b90020f5")
+	)
+	(fp_line
+		(start -1.325 1.75)
+		(end -1.325 -0.86)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5156c766-c6c7-43db-9aeb-c81ae7c5ee81")
+	)
+	(fp_line
+		(start -0.435 -1.75)
+		(end -1.325 -0.86)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6612e0a9-c8eb-435e-b6c3-c47dcc4c33fd")
+	)
+	(fp_line
+		(start 1.325 -1.75)
+		(end -0.435 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f57fddb-77fe-4a19-b2bc-e398c6480b5b")
+	)
+	(fp_line
+		(start 1.325 -1.75)
+		(end 1.325 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91e76df9-4473-4cc3-8940-26994ffc52cd")
+	)
+	(fp_line
+		(start 1.325 1.75)
+		(end -1.325 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71b04a9f-417d-4e54-b3d5-07f7ae6469b2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.1 90)
+		(layer "F.Fab")
+		(uuid "f07d0321-c0ad-4467-bdcc-d7d8d866ce48")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0.77)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "6158f568-8f72-4f5a-9d92-1b6ac5610f2b")
+	)
+	(pad "1" smd rect
+		(at -0.8375 -1.304)
+		(size 0.725 0.522)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fa368c8e-cf33-4b27-b64b-578d3599b465")
+	)
+	(pad "2" smd rect
+		(at -0.8375 -0.482)
+		(size 0.725 0.522)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "97d99428-b1d5-46e0-8817-5f0bd1710f81")
+	)
+	(pad "3" smd custom
+		(at 0 1.4325)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center 0 -0.6625)
+				(end 0.6625 -0.6625)
+				(width 0.3)
+				(fill no)
+			)
+		)
+		(uuid "8c2d513b-19ba-4270-bed6-a2599d0a2f44")
+	)
+	(pad "4" smd rect
+		(at 0.8375 -0.482)
+		(size 0.725 0.522)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "52940a40-48af-4424-87be-82eb66cd3630")
+	)
+	(pad "5" smd rect
+		(at 0.8375 -1.304)
+		(size 0.725 0.522)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "752abe99-a60a-4b76-a0b9-b21754997f3d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Sensor_Audio.3dshapes/Knowles_SPH0645LM4H-6_3.5x2.65mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

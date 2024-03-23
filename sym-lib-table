@@ -5,4 +5,6 @@
   (lib (name "SY8088AAC")(type "KiCad")(uri "${KIPRJMOD}/Library/SY8088AAC.kicad_sym")(options "")(descr ""))
   (lib (name "VEML7700-TR")(type "KiCad")(uri "${KIPRJMOD}/Library/VEML7700-TR.kicad_sym")(options "")(descr ""))
   (lib (name "ZL38063")(type "KiCad")(uri "${KIPRJMOD}/Library/ZL38063.kicad_sym")(options "")(descr ""))
+  (lib (name "ZILLTEK ZTS6577")(type "KiCad")(uri "${KIPRJMOD}/Library/ZILLTEK ZTS6577.kicad_sym")(options "")(descr ""))
+  (lib (name "PJ-342B")(type "KiCad")(uri "${KIPRJMOD}/Library/PJ-342B.kicad_sym")(options "")(descr ""))
 )

@@ -1187,6 +1187,198 @@
 				)
 			)
 		)
+		(symbol "ZILLTEK ZTS6577:ZTS6577"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MK"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZTS6577"
+				(at 8.89 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Knowles_LGA-5_3.5x2.65mm:Knowles_LGA-5_3.5x2.65mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://xonstorage.blob.core.windows.net/pdf/zilltek_zts6577_apr22_xonlink.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Digital MEMS Microphone, LGA-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Microphone MEMS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Knowles*LGA*3.5x2.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ZTS6577_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy -5.08 -1.27)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "CLOCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "DATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -1681,16 +1873,40 @@
 		)
 	)
 	(junction
+		(at 200.66 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05290b4c-8978-44b8-81ff-f852e883d097")
+	)
+	(junction
+		(at 200.66 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c245112-4ee7-4d01-bb88-5fc263975305")
+	)
+	(junction
 		(at 52.07 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11f1465b-b2f1-4ad1-a617-c1eb46af785e")
 	)
 	(junction
+		(at 200.66 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "167fda18-6322-4845-a97e-c16cf96d7622")
+	)
+	(junction
 		(at 15.24 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5984561f-a9bf-4c96-a57d-2a79cc3acaf2")
+	)
+	(junction
+		(at 234.95 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7284e7d4-9233-4daf-a2be-257887870e34")
 	)
 	(junction
 		(at 67.31 64.77)
@@ -1740,6 +1956,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 80.01) (xy 232.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d4316f-feaf-4a51-940f-9012563f3572")
+	)
+	(wire
+		(pts
 			(xy 62.23 22.86) (xy 58.42 22.86)
 		)
 		(stroke
@@ -1747,6 +1973,16 @@
 			(type default)
 		)
 		(uuid "06109e6e-aa06-4d7a-8adc-4778e21188fc")
+	)
+	(wire
+		(pts
+			(xy 214.63 31.75) (xy 210.82 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8e2a55-6d16-4ffc-91c0-4f753b610cbd")
 	)
 	(wire
 		(pts
@@ -1800,6 +2036,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 29.21) (xy 210.82 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f700e4d-174e-465b-a5b2-4e378c9e2831")
+	)
+	(wire
+		(pts
 			(xy 99.06 64.77) (xy 109.22 64.77)
 		)
 		(stroke
@@ -1807,6 +2053,66 @@
 			(type default)
 		)
 		(uuid "2ef1f048-554a-4400-bd9f-0994882a883a")
+	)
+	(wire
+		(pts
+			(xy 222.25 29.21) (xy 234.95 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6a8e6d-79d6-45ac-9329-44cf43f2bd36")
+	)
+	(wire
+		(pts
+			(xy 232.41 90.17) (xy 200.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309ecc55-83fa-4194-9475-0c604789b6dd")
+	)
+	(wire
+		(pts
+			(xy 161.29 21.59) (xy 200.66 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c8ff14-224f-454e-bae9-22e7d389e7f3")
+	)
+	(wire
+		(pts
+			(xy 234.95 82.55) (xy 234.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a98e837-1701-4eab-a465-67f12b6a0ae8")
+	)
+	(wire
+		(pts
+			(xy 210.82 53.34) (xy 214.63 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ade869-7be8-41e8-8482-5b86b4db256d")
+	)
+	(wire
+		(pts
+			(xy 210.82 26.67) (xy 214.63 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44144a98-2086-407e-9ed1-64f85e3ca0e7")
 	)
 	(wire
 		(pts
@@ -1850,6 +2156,46 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 58.42) (xy 237.49 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df7a2bb-3aa9-4564-9d37-cf19a906e419")
+	)
+	(wire
+		(pts
+			(xy 232.41 53.34) (xy 232.41 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52813220-021c-4bb0-8552-6994b336db30")
+	)
+	(wire
+		(pts
+			(xy 234.95 29.21) (xy 234.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1b5d75-d02f-4d63-84fa-b2b858a5aaf4")
+	)
+	(wire
+		(pts
+			(xy 214.63 58.42) (xy 210.82 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bca91bb-4ef5-4256-ae5a-e18d5c2a6946")
+	)
+	(wire
+		(pts
 			(xy 38.1 179.07) (xy 30.48 179.07)
 		)
 		(stroke
@@ -1860,6 +2206,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 58.42) (xy 237.49 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ead842-c53c-499b-9070-89b99eea3a47")
+	)
+	(wire
+		(pts
 			(xy 102.87 148.59) (xy 111.76 148.59)
 		)
 		(stroke
@@ -1867,6 +2223,26 @@
 			(type default)
 		)
 		(uuid "6c61f81f-619a-4dcb-99ef-e19f52fcedbc")
+	)
+	(wire
+		(pts
+			(xy 161.29 74.93) (xy 200.66 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed41e73-c168-4500-b806-c4be9f0c7c89")
+	)
+	(wire
+		(pts
+			(xy 222.25 26.67) (xy 232.41 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7009267e-f3cc-497a-a447-732a5a4b207a")
 	)
 	(wire
 		(pts
@@ -1940,6 +2316,26 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 85.09) (xy 210.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b607e45-0fd2-4f28-8ae5-a618836d9c10")
+	)
+	(wire
+		(pts
+			(xy 222.25 53.34) (xy 232.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da19fed-7f73-4a8d-9ac5-60f6669c7aa4")
+	)
+	(wire
+		(pts
 			(xy 15.24 129.54) (xy 15.24 132.08)
 		)
 		(stroke
@@ -1947,6 +2343,26 @@
 			(type default)
 		)
 		(uuid "9e4fe773-3fbb-43a1-8097-69c142e93170")
+	)
+	(wire
+		(pts
+			(xy 237.49 31.75) (xy 222.25 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3344ec3-42a2-4b5b-a6db-9bdf37c4aa09")
+	)
+	(wire
+		(pts
+			(xy 161.29 48.26) (xy 200.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaed5ebf-956e-4564-bcc8-86f879f60bdd")
 	)
 	(wire
 		(pts
@@ -1970,6 +2386,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 36.83) (xy 200.66 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30b9887-8a1a-486b-ad02-4563d344ab7b")
+	)
+	(wire
+		(pts
 			(xy 151.13 163.83) (xy 15.24 163.83)
 		)
 		(stroke
@@ -1977,6 +2403,16 @@
 			(type default)
 		)
 		(uuid "b9036a60-5abe-41fe-bf5a-a3c8cc60d3a8")
+	)
+	(wire
+		(pts
+			(xy 200.66 48.26) (xy 232.41 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf18a24-25cc-4aee-8f17-cbbe90e280a3")
 	)
 	(wire
 		(pts
@@ -2000,6 +2436,36 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 80.01) (xy 214.63 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9cb06d-c957-428b-bddb-f15acc56b79a")
+	)
+	(wire
+		(pts
+			(xy 214.63 55.88) (xy 210.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d045500b-301c-49ef-ae52-f51f85b51891")
+	)
+	(wire
+		(pts
+			(xy 234.95 55.88) (xy 222.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c39272-8b7a-4647-9d15-a2f5bd95d6c2")
+	)
+	(wire
+		(pts
 			(xy 67.31 64.77) (xy 82.55 64.77)
 		)
 		(stroke
@@ -2007,6 +2473,26 @@
 			(type default)
 		)
 		(uuid "da4c5ff5-6736-41a0-87c2-4764c4852c2c")
+	)
+	(wire
+		(pts
+			(xy 232.41 26.67) (xy 232.41 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1b7f4d-4050-4341-83d6-947c6b34c488")
+	)
+	(wire
+		(pts
+			(xy 222.25 82.55) (xy 234.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7950da-7576-4300-bb4a-7fbc665a8f48")
 	)
 	(wire
 		(pts
@@ -2030,6 +2516,26 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 85.09) (xy 237.49 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a8909e-011f-4a8f-926e-f6d40bb370f2")
+	)
+	(wire
+		(pts
+			(xy 214.63 82.55) (xy 210.82 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e962fef7-48e9-4312-b3e9-cd59e59b1c17")
+	)
+	(wire
+		(pts
 			(xy 38.1 132.08) (xy 44.45 132.08)
 		)
 		(stroke
@@ -2037,6 +2543,16 @@
 			(type default)
 		)
 		(uuid "f400c1cf-8113-4952-9ca3-8ac4acdda7ff")
+	)
+	(wire
+		(pts
+			(xy 222.25 80.01) (xy 232.41 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffbc412c-61b5-4336-957d-d5404182f143")
 	)
 	(global_label "WS2812_CTRL"
 		(shape input)
@@ -2417,6 +2933,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 161.29 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c376b0c-2f86-4f29-a252-0e44e3c9a408")
+		(property "Reference" "C78"
+			(at 165.1 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF/10V(10%)"
+			(at 165.1 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 162.2552 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f937a692-5b85-4c8a-8fd6-2db577b37a67")
+		)
+		(pin "1"
+			(uuid "98049a5d-a85a-4281-8fff-daefd2d9103b")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 114.3 179.07 0)
 		(unit 1)
@@ -2710,6 +3296,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 161.29 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f4ff1ed-b252-44af-83f4-0d44e554cdf2")
+		(property "Reference" "C76"
+			(at 165.1 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF/10V(10%)"
+			(at 165.1 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 162.2552 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc572355-197a-4729-8ec5-9b8fc651c9cb")
+		)
+		(pin "1"
+			(uuid "7cf3ffdf-5abc-45b8-925f-16fd7363b981")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 58.42 35.56 0)
 		(unit 1)
@@ -2803,7 +3459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 194.0052 158.75 0)
 			(effects
 				(font
@@ -2846,6 +3502,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 200.66 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2093c500-7a5b-43bf-a32a-dfda5156d7e9")
+		(property "Reference" "#PWR0176"
+			(at 200.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f6413f8-9574-4f8e-a375-d5e83ce59e1b")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 99.06 68.58 0)
 		(unit 1)
@@ -2873,7 +3595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.0252 72.39 0)
 			(effects
 				(font
@@ -2982,6 +3704,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 218.44 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "273c3c69-bd83-4da7-96b3-51a9af51ea07")
+		(property "Reference" "R87"
+			(at 213.36 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R(5%)"
+			(at 225.552 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 218.44 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74fdffb8-c317-47d4-b239-e55c42e7abf5")
+		)
+		(pin "1"
+			(uuid "ffa86964-99ce-4d2b-a4ba-697da3984edc")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "R87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 261.62 20.32 0)
 		(unit 1)
@@ -3049,6 +3838,140 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 218.44 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27e60270-f1f2-4bdc-ac0e-b623534a5f56")
+		(property "Reference" "R83"
+			(at 213.36 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R(5%)"
+			(at 225.552 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 218.44 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c79cbb5b-c80c-4f7c-8c31-860d938df49e")
+		)
+		(pin "1"
+			(uuid "a716b87d-ae2b-4c9f-8657-f9885f38bc87")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29a7ea18-3de9-4819-b474-ced75908493b")
+		(property "Reference" "R79"
+			(at 213.36 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K(5%)"
+			(at 225.552 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 218.44 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2feab5ed-d714-46a2-846d-b6dd3a64adaa")
+		)
+		(pin "1"
+			(uuid "c8be7a4b-6312-4a1b-a269-a1213271d34b")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 82.55 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3075,7 +3998,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 84.328 60.96 90)
 			(effects
 				(font
@@ -3112,6 +4035,73 @@
 			(project "Wave"
 				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e3c3046-5c0b-4122-92ea-013c23edd841")
+		(property "Reference" "R82"
+			(at 213.36 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K(5%)"
+			(at 225.552 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 218.44 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7693eb6d-e4b4-43cb-8260-5604437708bc")
+		)
+		(pin "1"
+			(uuid "862d8036-54c8-4dbb-9d75-a1ab22357499")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -3255,6 +4245,72 @@
 			(project "Wave"
 				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 161.29 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36fb11a2-78cd-46d0-bdd8-3e585e199d05")
+		(property "Reference" "#PWR0175"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 161.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eccf33c-8ba9-4579-b181-1a56b4a345a7")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -3420,7 +4476,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 23.368 78.74 90)
 			(effects
 				(font
@@ -3672,6 +4728,139 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 218.44 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48643942-b63e-48d3-b6a6-dc84de281e9d")
+		(property "Reference" "R84"
+			(at 213.36 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R(5%)"
+			(at 225.552 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 218.44 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20ec441a-c53e-4efd-b4b5-ea0a440b5982")
+		)
+		(pin "1"
+			(uuid "1a6c5eb8-cbe7-4b92-8449-baa247487592")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 200.66 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a1167dc-c67d-44b3-8978-d9c7d0ba9b9a")
+		(property "Reference" "#PWR0174"
+			(at 200.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 200.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "961cba71-3eda-4f3e-bfb5-232b0a4a1f0c")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 82.55 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3698,7 +4887,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 84.328 78.74 90)
 			(effects
 				(font
@@ -4005,6 +5194,85 @@
 		)
 	)
 	(symbol
+		(lib_id "ZILLTEK ZTS6577:ZTS6577")
+		(at 200.66 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59f6d918-a111-49af-8003-2cd966583b8a")
+		(property "Reference" "MK1"
+			(at 191.77 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ZTS6577"
+			(at 191.77 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Knowles_LGA-5_3.5x2.65mm:Knowles_LGA-5_3.5x2.65mm"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://xonstorage.blob.core.windows.net/pdf/zilltek_zts6577_apr22_xonlink.pdf"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital MEMS Microphone, LGA-5"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "1fffa9a0-4429-4a95-98d5-cfa9546336ad")
+		)
+		(pin "2"
+			(uuid "c6c4de17-b01a-4e7b-816c-12b1071a36cf")
+		)
+		(pin "4"
+			(uuid "00fd9d2f-7b5e-4bbe-acd3-b80070f247d3")
+		)
+		(pin "5"
+			(uuid "be713afd-5a2d-4460-aa94-b6ec1bdbd9f5")
+		)
+		(pin "3"
+			(uuid "c1cdd1e4-9a42-4cad-a86a-07e5a65ab0b7")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "MK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N5819WS")
 		(at 48.26 132.08 0)
 		(unit 1)
@@ -4166,7 +5434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 242.2652 158.75 0)
 			(effects
 				(font
@@ -4236,7 +5504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 69.088 78.74 90)
 			(effects
 				(font
@@ -4452,7 +5720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 218.1352 158.75 0)
 			(effects
 				(font
@@ -4627,6 +5895,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 218.44 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "844bcc6c-56aa-4236-ae72-9673ed2a0ac7")
+		(property "Reference" "R85"
+			(at 213.36 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K(5%)"
+			(at 225.552 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 218.44 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d21002ca-7dde-493f-a2e8-5178f13f56b3")
+		)
+		(pin "1"
+			(uuid "522c1211-a512-4e82-9996-4df3f05cf809")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 182.88 179.07 0)
 		(unit 1)
@@ -4728,7 +6063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 34.29 133.858 90)
 			(effects
 				(font
@@ -4897,6 +6232,153 @@
 			(project "Wave"
 				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "934c30ca-44da-4d5e-ae1f-69853728d07a")
+		(property "Reference" "R23"
+			(at 160.02 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R(5%)"
+			(at 172.212 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 165.1 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ea12f00-ed77-4131-ac9f-b4921bdd6b44")
+		)
+		(pin "1"
+			(uuid "34849e30-99f5-4752-95f8-1882c5ab36f9")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ZILLTEK ZTS6577:ZTS6577")
+		(lib_id "ZILLTEK ZTS6577:ZTS6577")
+		(at 200.66 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93e82d4b-fbee-4586-878c-c4cdfa224649")
+		(property "Reference" "MK3"
+			(at 191.77 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ZTS6577"
+			(at 191.77 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Knowles_LGA-5_3.5x2.65mm:Knowles_LGA-5_3.5x2.65mm"
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://xonstorage.blob.core.windows.net/pdf/zilltek_zts6577_apr22_xonlink.pdf"
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital MEMS Microphone, LGA-5"
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "74fba8b6-7019-419f-a55d-7789bb8c5c0b")
+		)
+		(pin "2"
+			(uuid "dfe5b52f-72b8-4af9-9ccb-00304a3b9990")
+		)
+		(pin "4"
+			(uuid "06867747-a121-49af-8a05-eec3de56ff86")
+		)
+		(pin "5"
+			(uuid "08db2191-9863-4e85-badb-227725ca3f73")
+		)
+		(pin "3"
+			(uuid "04794838-0ff4-425c-9321-472bf7d682e5")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "MK3")
 					(unit 1)
 				)
 			)
@@ -5172,6 +6654,72 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 161.29 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6d65140-97a6-4c8c-8e10-8530476e513c")
+		(property "Reference" "#PWR0172"
+			(at 161.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7291dca1-181c-4184-a2ac-636077c3df37")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 36.83 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5264,7 +6812,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 17.018 125.73 90)
 			(effects
 				(font
@@ -6019,7 +7567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 86.0552 30.48 0)
 			(effects
 				(font
@@ -6743,6 +8291,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 218.44 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0822732-92bb-4c13-97e5-2169ce5947e1")
+		(property "Reference" "R81"
+			(at 213.36 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R(5%)"
+			(at 225.552 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 218.44 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47c9b53d-add1-43d8-a5f2-53c77f5a694a")
+		)
+		(pin "1"
+			(uuid "bf6fdb53-afb1-4c71-83df-ab79ca0e1bc6")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 36.83 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6769,7 +8384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 38.608 78.74 90)
 			(effects
 				(font
@@ -6879,6 +8494,72 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 200.66 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4b0ffcf-9082-4c30-8a02-13d90a920f29")
+		(property "Reference" "#PWR0171"
+			(at 200.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c45be64b-38f5-4f3e-a255-c611f6e6408a")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 82.55 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6971,7 +8652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.1952 30.48 0)
 			(effects
 				(font
@@ -7041,7 +8722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 266.3952 158.75 0)
 			(effects
 				(font
@@ -7286,6 +8967,73 @@
 			(project "Wave"
 				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8a6ac4e-4309-4009-813b-c5638e13badd")
+		(property "Reference" "R86"
+			(at 213.36 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R(5%)"
+			(at 225.552 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 218.44 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3fee1aa5-5815-435a-bb34-ade070e43da1")
+		)
+		(pin "1"
+			(uuid "cef33d10-61c3-40b8-be0e-c7f7bd32809a")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -7566,6 +9314,86 @@
 		)
 	)
 	(symbol
+		(lib_name "ZILLTEK ZTS6577:ZTS6577")
+		(lib_id "ZILLTEK ZTS6577:ZTS6577")
+		(at 200.66 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd7d5fb-e64b-46e0-81b6-7587f27b9d5e")
+		(property "Reference" "MK2"
+			(at 191.77 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ZTS6577"
+			(at 191.77 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Knowles_LGA-5_3.5x2.65mm:Knowles_LGA-5_3.5x2.65mm"
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://xonstorage.blob.core.windows.net/pdf/zilltek_zts6577_apr22_xonlink.pdf"
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital MEMS Microphone, LGA-5"
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "38ae7b78-5cd3-4416-aa77-a7fc8e1c9add")
+		)
+		(pin "2"
+			(uuid "ebd31736-f605-4a91-aafb-d74ffca573e6")
+		)
+		(pin "4"
+			(uuid "cbd7bee3-49f3-4fa0-8aaa-040cb1d7adc8")
+		)
+		(pin "5"
+			(uuid "be98f12c-47d7-46c4-8d9b-9e470cb649a8")
+		)
+		(pin "3"
+			(uuid "ac7a67f8-7ccd-4594-b341-263943e748f8")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "MK2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "VEML7700-TR:VEML7700-TR")
 		(at 45.72 30.48 0)
 		(unit 1)
@@ -7781,6 +9609,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 218.44 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3638d24-364d-4259-a563-e5d015fbe5d0")
+		(property "Reference" "R80"
+			(at 213.36 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R(5%)"
+			(at 225.552 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 218.44 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f9db1d5-6e72-41bb-a1b3-4c39190fdde3")
+		)
+		(pin "1"
+			(uuid "4f8b23f7-bb5f-41b2-aaf4-3199db75f2f0")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 99.06 72.39 0)
 		(unit 1)
@@ -7941,7 +9836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 208.28 179.07 0)
 			(effects
 				(font
@@ -8159,7 +10054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 169.8752 158.75 0)
 			(effects
 				(font
@@ -8202,6 +10097,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 161.29 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbe6909b-c8ca-4e16-be57-a2bfa1ba352e")
+		(property "Reference" "C77"
+			(at 165.1 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF/10V(10%)"
+			(at 165.1 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 162.2552 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6de5c8b-eb0f-4c97-99de-7d402f917a2a")
+		)
+		(pin "1"
+			(uuid "c6df57cf-41f3-41b3-80b0-8cba4f9c4811")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 52.07 78.74 180)
 		(unit 1)
@@ -8229,7 +10194,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 53.848 78.74 90)
 			(effects
 				(font
@@ -8534,6 +10499,139 @@
 			(project "Wave"
 				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 161.29 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff24c7e0-3a2c-47cf-a784-cd45b649bc15")
+		(property "Reference" "#PWR0173"
+			(at 161.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dda9eff-0e29-4c28-baa5-0384d1d51c2e")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffb9cd1d-b24c-41d4-a725-aac20baae06b")
+		(property "Reference" "R73"
+			(at 160.02 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R(5%)"
+			(at 172.212 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 165.1 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6308652b-e6fa-4bfe-a8e4-aa712608e447")
+		)
+		(pin "1"
+			(uuid "4a97c29c-3580-4003-8724-4406b95fe98d")
+		)
+		(instances
+			(project "Wave"
+				(path "/d9ae5ab6-a812-4d0b-96e5-05f704754669/e0b31402-d5d8-4585-a234-df422b4e9b7b"
+					(reference "R73")
 					(unit 1)
 				)
 			)
