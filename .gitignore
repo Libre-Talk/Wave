@@ -2,3 +2,4 @@
 fp-info-cache
 Wave-backups/*
 *.bak
+*.lck

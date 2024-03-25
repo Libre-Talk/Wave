@@ -6305,7 +6305,6 @@
 		)
 	)
 	(symbol
-		(lib_name "ZILLTEK ZTS6577:ZTS6577")
 		(lib_id "ZILLTEK ZTS6577:ZTS6577")
 		(at 200.66 82.55 0)
 		(unit 1)
@@ -9314,7 +9313,6 @@
 		)
 	)
 	(symbol
-		(lib_name "ZILLTEK ZTS6577:ZTS6577")
 		(lib_id "ZILLTEK ZTS6577:ZTS6577")
 		(at 200.66 55.88 0)
 		(unit 1)
