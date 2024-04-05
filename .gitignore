@@ -3,3 +3,5 @@ fp-info-cache
 Wave-backups/*
 *.bak
 *.lck
+mk-0/KiCAD/Wave-backups/*
+mk-0/KiCAD/TopBoard/TopBoard-backups/*

@@ -1,0 +1,416 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A3")
+	(title_block
+		(date "15 nov 2012")
+	)
+	(lib_symbols)
+	(label "GPIO23"
+		(at 450.85 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fb4635a-a895-4c6b-b7fa-2bc5b36c9b6f")
+	)
+	(label "GPIO10{slash}SPI0.MOSI"
+		(at 441.96 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "122c313a-fd80-424d-8e4b-4191d890f23d")
+	)
+	(label "GPIO8{slash}SPI0.CE0"
+		(at 441.96 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13cac4d5-43f2-4ec3-ba29-8c844fbbb33b")
+	)
+	(label "GPIO3{slash}SCL1"
+		(at 441.96 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1776f24f-bda1-46b1-a246-fd22e4aa4a18")
+	)
+	(label "GPIO15{slash}RXD0"
+		(at 450.85 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ad3b0bc-586c-4bd0-bdcf-660bb8aac863")
+	)
+	(label "GPIO24"
+		(at 450.85 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e0d31d5-49ad-4e2d-8450-d66f631c1688")
+	)
+	(label "GPIO2{slash}SDA1"
+		(at 441.96 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e4ef5a4-8fc5-4b4c-ae77-53af1f79a49e")
+	)
+	(label "GPIO18{slash}PCM.CLK"
+		(at 450.85 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fff34f2-2d92-4dce-bc36-9a6705390b04")
+	)
+	(label "GPIO21{slash}PCM.DOUT"
+		(at 450.85 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7520c44e-2859-4590-80dd-0f917384269d")
+	)
+	(label "GPIO25"
+		(at 450.85 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7567dd69-3f42-43fa-904f-5f37902a8c6d")
+	)
+	(label "GPIO17"
+		(at 450.85 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c2595dd-eff4-4e26-9138-f19f3c6a6685")
+	)
+	(label "GPIO27"
+		(at 450.85 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9da7c71a-38b6-466d-81a5-daca78ff13ca")
+	)
+	(label "GPIO6"
+		(at 441.96 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fe1ad8a-1d7c-4a97-8527-0f3c22739b3b")
+	)
+	(label "GPIO5"
+		(at 441.96 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2416508-b5d0-4f4f-9644-94f3bd2d3f5d")
+	)
+	(label "GPIO16"
+		(at 450.85 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8008f37-7a88-4903-a5aa-f352b11b2cce")
+	)
+	(label "GPIO13{slash}PWM1"
+		(at 441.96 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a961ca75-292e-45aa-9da3-8657a4c651dc")
+	)
+	(label "GPIO19{slash}PCM.FS"
+		(at 450.85 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acfb6a6d-75bd-4036-9de8-32871146eb8f")
+	)
+	(label "GPIO20{slash}PCM.DIN"
+		(at 450.85 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b253e0a1-47db-4a34-8bfc-a82ce2d90299")
+	)
+	(label "GPIO9{slash}SPI0.MISO"
+		(at 441.96 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf41d8da-544d-482a-b9be-a8ce5094502d")
+	)
+	(label "GPIO11{slash}SPI0.SCLK"
+		(at 441.96 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d181dc53-471b-4929-9989-65a2e0b8ca6c")
+	)
+	(label "GPIO22"
+		(at 450.85 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc824fe6-0276-49a2-a091-08c8656919e7")
+	)
+	(label "GPIO26"
+		(at 450.85 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd941ea8-b1d9-4d7a-a8cc-cde1c2c96618")
+	)
+	(label "GPIO14{slash}TXD0"
+		(at 450.85 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e08a1995-831b-4f8a-bf9b-5e10d6894c0e")
+	)
+	(label "GPIO7{slash}SPI0.CE1"
+		(at 441.96 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2f0bc43-0e3b-49d3-a42f-54eb5c3aa0de")
+	)
+	(label "GPIO12{slash}PWM0"
+		(at 441.96 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f02c02b9-48a7-44cb-a797-f2536a5211b7")
+	)
+	(label "GPIO4{slash}GPCLK0"
+		(at 441.96 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3293b59-effe-477e-83d4-cded9a263c24")
+	)
+	(sheet
+		(at 49.53 317.5)
+		(size 24.13 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "763ca73f-631c-4961-8ef6-82b2e2a58ef1")
+		(property "Sheetname" "Power"
+			(at 49.53 316.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 49.53 346.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TopBoard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 317.5)
+		(size 27.94 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "958c7b0d-baa0-4852-b175-63ea9119e9f3")
+		(property "Sheetname" "DSP"
+			(at 15.24 316.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DSP.kicad_sch"
+			(at 15.24 346.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TopBoard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 317.5)
+		(size 24.13 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e65d50ca-f7e0-495f-8bb0-c6a5384eb90a")
+		(property "Sheetname" "Interface"
+			(at 86.36 316.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface.kicad_sch"
+			(at 86.36 347.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TopBoard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
