@@ -8077,115 +8077,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x15")
-		(at 260.35 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "16ce369a-17a2-4506-bdf9-f1968143e29c")
-		(property "Reference" "J4"
-			(at 262.89 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x15"
-			(at 262.89 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
-			(at 260.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 260.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3d63b4a0-4fae-4883-a880-13c0f7c86e08")
-		)
-		(pin "8"
-			(uuid "f60c910e-e5bd-4d1f-a151-bff210bc24ac")
-		)
-		(pin "14"
-			(uuid "bf754674-5856-4810-87a2-0bf88fef2682")
-		)
-		(pin "4"
-			(uuid "d0bfcd8e-bcac-4bba-899d-291bb051f99f")
-		)
-		(pin "10"
-			(uuid "99b44daa-7b91-40c9-9154-f60e6869c2c8")
-		)
-		(pin "13"
-			(uuid "ddfd5515-d498-440e-8d21-5b8e2fe4aff6")
-		)
-		(pin "12"
-			(uuid "c5d68960-f07e-476c-8f14-15a215aae479")
-		)
-		(pin "11"
-			(uuid "9a80cac6-cde8-475b-8f9b-8e1f35821826")
-		)
-		(pin "1"
-			(uuid "92b5d972-4318-4184-93ac-12801b6ba427")
-		)
-		(pin "15"
-			(uuid "2076a1d4-c15e-4eb4-b297-29c5b81b5c40")
-		)
-		(pin "6"
-			(uuid "789185f1-e95b-4866-a054-9f5e40d5eb68")
-		)
-		(pin "5"
-			(uuid "2353c3c4-17e6-46ca-9527-89d78655a53b")
-		)
-		(pin "7"
-			(uuid "57ddeba5-2ecc-4b34-a7d0-68dbeb38f1e2")
-		)
-		(pin "9"
-			(uuid "fe631fd6-2a1f-4ab9-a1cc-64a8f4110b01")
-		)
-		(pin "2"
-			(uuid "6af44f03-277b-4dd3-a65d-31ba0a7e581b")
-		)
-		(instances
-			(project "TopBoard"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/958c7b0d-baa0-4852-b175-63ea9119e9f3"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
 		(at 43.18 153.67 90)
 		(mirror x)
@@ -14629,6 +14520,115 @@
 			(project "TopBoard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/958c7b0d-baa0-4852-b175-63ea9119e9f3"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x15")
+		(at 260.35 68.58 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "df9fc801-455b-409a-966e-36e0abe95a4d")
+		(property "Reference" "J4"
+			(at 262.89 69.8501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x15"
+			(at 262.89 67.3101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
+			(at 260.35 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 260.35 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6679c184-d5bf-4943-9b7c-46bb7eeca095")
+		)
+		(pin "8"
+			(uuid "e0d95ec3-45ff-4cc0-bba8-c0747619c780")
+		)
+		(pin "14"
+			(uuid "2716ecf3-61c3-4295-b91d-bdf632d92629")
+		)
+		(pin "4"
+			(uuid "36a2a3a6-c916-4d70-8392-e57d6f960e1b")
+		)
+		(pin "10"
+			(uuid "a7a45b41-ea32-484a-bda2-833efe0ccf24")
+		)
+		(pin "13"
+			(uuid "37da87a9-45da-4ac8-a734-cf6c479722a9")
+		)
+		(pin "12"
+			(uuid "91cd99bd-cfd6-4466-bd1d-042f09199347")
+		)
+		(pin "11"
+			(uuid "71617bb4-ba5b-4379-9654-e3a2732252bc")
+		)
+		(pin "1"
+			(uuid "decf5ebb-0526-40be-a711-35af23f1988d")
+		)
+		(pin "15"
+			(uuid "16267474-df4a-4a3c-b17f-5365e22c9a71")
+		)
+		(pin "6"
+			(uuid "5794b984-4108-47e9-876f-d4ea5137209a")
+		)
+		(pin "5"
+			(uuid "08a0177f-05a1-4127-854f-c0efd863c8f5")
+		)
+		(pin "7"
+			(uuid "b1398b08-db54-47b0-94d1-02f7a581bdc8")
+		)
+		(pin "9"
+			(uuid "f9d63dd4-ed5d-445e-8405-175012f2fdce")
+		)
+		(pin "2"
+			(uuid "b0f2ace3-ede2-446f-84b8-e696733ef4d7")
+		)
+		(instances
+			(project "TopBoard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/958c7b0d-baa0-4852-b175-63ea9119e9f3"
+					(reference "J4")
 					(unit 1)
 				)
 			)

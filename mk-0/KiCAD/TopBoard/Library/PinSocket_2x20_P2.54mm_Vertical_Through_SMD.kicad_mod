@@ -212,13 +212,6 @@
 		(uuid "0b6680ce-b0ef-446e-9397-ad7c69e95e9a")
 	)
 	(pad "" np_thru_hole circle
-		(at -20.32 0)
-		(size 1.8 1.8)
-		(drill 1.8)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "6577aa28-7e62-47fd-b6cf-0fdc489c999e")
-	)
-	(pad "" np_thru_hole circle
 		(at -19.05 -1.27)
 		(size 1.02 1.02)
 		(drill 1.02)
@@ -441,13 +434,6 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(uuid "bba4e29d-7d8d-41c8-bdc7-089d27f407c1")
-	)
-	(pad "" np_thru_hole circle
-		(at 20.32 0)
-		(size 1.8 1.8)
-		(drill 1.8)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "9cff9daa-c82f-4228-b2f4-36476d75453d")
 	)
 	(pad "" np_thru_hole circle
 		(at 21.59 -1.27)
